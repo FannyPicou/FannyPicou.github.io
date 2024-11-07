@@ -5,11 +5,11 @@
 body {
   font-family: 'Manrope', sans-serif;
   font-size: 1em;
-  background-color: #1f2039;
+  background-color: #f9f8ff;
 }
 
 a {
-  color: #242424;
+  color: #f9f8ff;
   text-decoration: none;
 }
 
@@ -31,12 +31,13 @@ h2 {
 p,
 li {
   font-size: 1.1em;
-  color: #f9f8ff;
+  color: rgb(31, 29, 33);
+  padding: 80px;
 }
 
 header,
 footer {
-  background-color: white;
+  background-color: rgb(31, 29, 33);
   padding: 20px 50px;
 }
 
@@ -87,12 +88,20 @@ section {
   margin: auto;
 }
 
-footer,
 nav {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 25%;
+  padding-right: 25%;
 }
 
 nav a {
@@ -124,4 +133,11 @@ nav a {
   width: 50%;
   align-items: center;
   margin: auto;
+}
+
+.box-shadow img {
+  height: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3),
+        0 0 20px rgba(0, 0, 0, 0.2),
+        0 0 30px rgba(0, 0, 0, 0.1);
 }
