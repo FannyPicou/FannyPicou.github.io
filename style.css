@@ -8,8 +8,14 @@ body {
   background-color: #f9f8ff;
 }
 
-a {
+a.class1 {
   color: #f9f8ff;
+  text-decoration: none;
+}
+
+a.class2 {
+  color: rgb(48, 20, 75);
+  font-size: 0.8em;
   text-decoration: none;
 }
 
@@ -19,20 +25,37 @@ em {
 }
 
 h1 {
-  font-size: 3.5em;
-  color: #a5b4fc;
-  font-family: 'Montserrat', sans-serif;
+  font-size: 3em;
+  color: rgb(31, 29, 33);
 }
 
 h2 {
   color: #f9f8ff;
 }
 
-p,
-li {
-  font-size: 1.1em;
+p.class1 {
+  font-size: 1em;
   color: rgb(31, 29, 33);
-  padding: 80px;
+  padding: 50px;
+}
+
+p.class2 {
+  font-size: 0.9em;
+  font-weight: 900;
+  color: #7365b8;
+  padding: 5px;
+}
+
+p.class3 {
+  font-size: 1em;
+  color:rgb(31, 29, 33);
+  padding: 5px;
+}
+
+li {
+  font-size: 1em;
+  color: rgb(31, 29, 33);
+  padding: 10px;
 }
 
 header,
@@ -130,7 +153,7 @@ nav a {
 .accueil-introduction {
   display: flex;
   flex-direction: row;
-  width: 50%;
+  width: 60%;
   align-items: center;
   margin: auto;
 }
