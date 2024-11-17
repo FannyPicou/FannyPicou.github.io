@@ -14,8 +14,7 @@ a.class1 {
 }
 
 a.class2 {
-  color: rgb(48, 20, 75);
-  font-size: 0.8em;
+  color: #735ce7;
   text-decoration: none;
 }
 
@@ -27,10 +26,12 @@ em {
 h1 {
   font-size: 3em;
   color: rgb(31, 29, 33);
+  margin-bottom: 20px;
 }
 
 h2 {
-  color: #f9f8ff;
+  color: rgb(31, 29, 33);
+  margin-bottom: 5px;
 }
 
 p.class1 {
@@ -42,17 +43,23 @@ p.class1 {
 p.class2 {
   font-size: 0.9em;
   font-weight: 900;
-  color: #7365b8;
+  color: #9794a5;
   padding: 5px;
 }
 
 p.class3 {
   font-size: 1em;
-  color:rgb(31, 29, 33);
+  color:rgb(29, 31, 33);
   padding: 5px;
 }
 
 li {
+  font-size: 1em;
+  color: rgb(31, 29, 33);
+  padding: 10px;
+}
+
+li.close {
   font-size: 1em;
   color: rgb(31, 29, 33);
   padding: 10px;
@@ -156,6 +163,14 @@ nav a {
   width: 60%;
   align-items: center;
   margin: auto;
+}
+
+#div1 h1 {
+  width: 60%;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 0px;
+  margin-left: 20%;
 }
 
 .box-shadow img {
