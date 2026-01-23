@@ -165,7 +165,8 @@ nav a {
   margin: auto;
 }
 
-#div1 h1 {
+#div1 h1,
+#div1 h2 {
   width: 60%;
   align-items: center;
   margin-top: 30px;
@@ -178,4 +179,40 @@ nav a {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3),
         0 0 20px rgba(0, 0, 0, 0.2),
         0 0 30px rgba(0, 0, 0, 0.1);
+}
+
+.subtitle {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.3em;
+  font-weight: normal;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  color: #555;
+}
+
+.subtitle-link {
+  color: inherit;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.subtitle-link:hover {
+  text-decoration: underline;
+}
+
+.accueil-introduction p.class1 {
+  padding-top: 0px;
+}
+
+.accueil-introduction p.class1 {
+  padding-bottom: 10px; /* or 0 if you want it tight */
+}
+
+.accueil-introduction ul.class1 {
+  padding-left: 60px;   /* moves bullets to the right */
+  margin-top: 0;         /* removes extra space above */
+}
+
+.accueil-introduction ul.class1 li {
+  padding: 10px 0;        /* optional: reduce spacing between bullets */
 }
