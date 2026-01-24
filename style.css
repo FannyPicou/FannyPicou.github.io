@@ -210,11 +210,3 @@ nav a {
 section {
   padding: 30px 80px;
 }
-
-.accueil-introduction a.class2 {
-  text-decoration: none;
-}
-
-.accueil-introduction a.class2:hover {
-  text-decoration: underline;
-}
