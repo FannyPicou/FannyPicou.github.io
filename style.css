@@ -24,12 +24,13 @@ em {
 }
 
 h1 {
-  font-size: 3em;
+  font-size: 2em;
   color: rgb(31, 29, 33);
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 h2 {
+  font-size: 1.5em;
   color: rgb(31, 29, 33);
   margin-bottom: 5px;
 }
@@ -37,7 +38,7 @@ h2 {
 p.class1 {
   font-size: 1em;
   color: rgb(31, 29, 33);
-  padding: 50px;
+  padding: 0px;
 }
 
 p.class2 {
@@ -157,14 +158,6 @@ nav a {
   margin-bottom: 15px;
 }
 
-.accueil-introduction {
-  display: flex;
-  flex-direction: row;
-  width: 60%;
-  align-items: center;
-  margin: auto;
-}
-
 #div1 h1,
 #div1 h2 {
   width: 60%;
@@ -181,30 +174,8 @@ nav a {
         0 0 30px rgba(0, 0, 0, 0.1);
 }
 
-.subtitle {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 1.3em;
-  font-weight: normal;
-  margin-top: 0.5em;
-  margin-bottom: 0.5em;
-  color: #555;
-}
-
-.subtitle-link {
-  color: inherit;
-  text-decoration: none;
-  font-weight: 500;
-}
-
-.subtitle-link:hover {
-  text-decoration: underline;
-}
-
 .accueil-introduction p.class1 {
-  padding-top: 0px;
-}
-
-.accueil-introduction p.class1 {
+  padding-top: 0;
   padding-bottom: 10px; /* or 0 if you want it tight */
 }
 
@@ -215,4 +186,35 @@ nav a {
 
 .accueil-introduction ul.class1 li {
   padding: 10px 0;        /* optional: reduce spacing between bullets */
+}
+
+.job-title {
+  font-family: 'Manerope', sans-serif;
+  font-size: 1.4em;
+  font-weight: 20;
+  color: rgb(31, 29, 33);
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.accueil-introduction {
+  display: flex;
+  flex-direction: row;
+  width: 60%;
+  align-items: center;
+  margin: auto;
+  gap: 50px; /* 👈 ESPACE entre la photo et le texte */
+  margin-bottom: 0px;
+}
+
+section {
+  padding: 30px 80px;
+}
+
+.accueil-introduction a.class2 {
+  text-decoration: none;
+}
+
+.accueil-introduction a.class2:hover {
+  text-decoration: underline;
 }
